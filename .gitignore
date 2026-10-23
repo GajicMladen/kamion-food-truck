@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.tsbuildinfo
+scripts/smoke-out
+
+# Local-only source material (raw downloads from the restaurant's site/Instagram/Wolt)
+raw-assets/
+
+# Firebase: plaintext kitchen/admin codes (hashes live in firebase/firestore.rules), CLI caches and logs
+firebase/*.local.json
+.firebase/
+*-debug.log
